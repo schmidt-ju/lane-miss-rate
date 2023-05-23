@@ -417,7 +417,7 @@ class LaneMissRate:
             scenario_lane_centerlines (Dict[int, Tuple[NDArray[np.float64], float]]):
                 Lane segment ids and tuples containing centerline
                 coordinates and lane widths.
-            rtree (index.Index): R-Tree of lane segments.
+            rtree (index.Index): R-tree of lane segments.
             query_xy (NDArray[np.float64]): Query location, in this
                 case a trajectory endpoint.
             query_orientation (float, optional): Query orientation, in this case the
